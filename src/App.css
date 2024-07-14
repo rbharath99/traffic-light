@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.traffic-light-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.traffic-light {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
